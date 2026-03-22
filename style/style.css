@@ -1,0 +1,51 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inknut Antiqua", serif;
+  color:#EBD8A4;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #30282A;
+  padding: 15px 20px;
+
+}
+
+
+
+/* Logo grootte */
+.logo img {
+  width: 36vw;
+ 
+}
+
+/* Hamburger menu styling */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Lijnen van hamburger */
+.hamburger span {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+}
+
+/* Navigatie standaard verborgen (mobile first) */
+.nav {
+  display: none;
+}
