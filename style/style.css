@@ -7,16 +7,16 @@
 
 body {
   font-family: "Inknut Antiqua", serif;
-  color:#EBD8A4;
+  background-color:#EBD8A4;
 }
 
-/* Header styling */
+/* Header */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #30282A;
-  padding: 15px 20px;
+  padding: 0px 20px;
 
 }
 
@@ -28,7 +28,7 @@ body {
  
 }
 
-/* Hamburger menu styling */
+/* Hamburger menu*/
 .hamburger {
   display: flex;
   flex-direction: column;
@@ -40,12 +40,49 @@ body {
 
 /* Lijnen van hamburger */
 .hamburger span {
-  width: 35px;
-  height: 3px;
+  width: 45px;
+  height: 4px;
   background-color: white;
 }
 
 /* Navigatie standaard verborgen (mobile first) */
+
 .nav {
   display: none;
+}
+
+.nav.active {
+  display: block;
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  background-color: white;
+  padding: 40px 20px;
+  z-index: 1000;
+}
+
+.close-menu {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
 }
