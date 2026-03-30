@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,10 +19,15 @@ eten in Rotterdam">
 
 <link rel="stylesheet" href="style/style.css">
 <link rel="stylesheet" href="style/responsive.css">
-
+<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <?php include 'includes/header.php' ?>
+    <?php include 'includes/header.php'?>
     
+    
+    
+    <?php include 'includes/footer.php'?>
+    <script src="script/script.js"></script>
 </body>
 </html>
+
