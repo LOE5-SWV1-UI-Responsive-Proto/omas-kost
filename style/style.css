@@ -57,7 +57,7 @@ body {
   top: 100px;
   left: 50%;
   transform: translateX(-50%);
-  width: 70%;
+  width: 100%;
   background-color: white;
   padding: 40px 20px;
   z-index: 1000;
@@ -84,5 +84,53 @@ body {
 .nav a {
   text-decoration: none;
   color: black;
-  font-size: 2rem;
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+  background-color: #5F5448;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Logo */
+.footer-logo img {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+/* Contact tekst */
+.footer-contact h2 {
+  margin-bottom: 10px;
+}
+
+.footer-contact p {
+  margin-bottom: 5px;
+}
+
+/* Social media */
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.footer-social img {
+  width: 40px;
+}
+
+/* Copyright */
+.footer-copy p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.43); 
 }
