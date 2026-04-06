@@ -1,23 +1,23 @@
 @media (min-width: 768px) {
- 
+
   /* logo */
   .logo img {
     width: 100%;
     height: 12vw;
   }
- 
+
   /* hamburger lijnen */
   .hamburger span {
     width: 50px;
     height: 4px;
   }
- 
+
   /* Grotere mobiele navigatie */
   .nav.active {
     width: 100%;
     padding: 50px 30px;
   }
- 
+
   .nav a {
     font-size: 2.3rem;
   }
@@ -26,163 +26,200 @@
     font-size: 9rem;
     top: 7%;
   }
- 
+
   .hero-subtitle {
     font-size: 1.2rem;
     top: 23%;
   }
- 
+
   .reserve-button {
     font-size: 0,7rem;
     padding: 0.3rem 2.8rem;
     top: 63%;
   }
- 
+
   .info-section {
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
     padding: 2rem;
   }
- 
+
   .info-card h2 {
     font-size: 1.5rem;
   }
- 
+
   .info-card p {
-    font-size: 0.95rem;
+    font-size: 0.95rem; 
   }
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
   .vacatures-main {
     padding: 2.5rem 2rem 4rem;
   }
- 
+
   .vacatures-title {
     font-size: 9rem;
     top: 7%;
   }
- 
+
   .vacatures-subtitle {
     font-size: 1.2rem;
     top: 23%;
   }
- 
+
   .vacature-card h2 {
     font-size: 2.2rem;
   }
- 
+
   .vacature-card p {
     font-size: 1rem;
   }
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
   .locatie-main {
     padding: 2.5rem 2rem 4rem;
   }
- 
+
   .locatie-title {
     font-size: 9rem;
     top: 7%;
   }
- 
+
   .locatie-subtitle {
     font-size: 1.2rem;
     top: 23%;
   }
- 
+
   .opening-card h2,
   .adres-card h2 {
     font-size: 2.2rem;
   }
- 
+
   .opening-list li {
     font-size: 1.4rem;
   }
- 
+
   .adres-card p {
     font-size: 1.1rem;
   }
+
+
+
+
+
+
+
  
+.menu-main {
+    padding: 2rem 2rem 3rem;
+  }
+
+  .menu-title {
+    font-size: 9rem;
+    top: 7%;
+  }
+
+  .menu-subtitle {
+    font-size: 9rem;
+    top: 7%;
+  }
+
+  .menu-tools button {
+    font-size: 1rem;
+    padding: 0.7rem 1.3rem;
+  }
+
+  .menu-card h2 {
+    font-size: 2.2rem;
+  }
+
+  .menu-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .menu-card p {
+    font-size: 1.2rem;
+  }
 }
- 
+
        
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1024px) {
- 
+
   /* Hamburger verbergen */
   .hamburger {
     display: none;
   }
- 
+
   /* Navigatie tonen */
   .nav {
     display: block;
@@ -192,7 +229,7 @@
     width: auto;
     margin-right: 100px;
   }
- 
+
   /* Menu in het midden van de header */
   .nav ul {
     display: flex;
@@ -202,7 +239,7 @@
     list-style: none;
     flex-direction: row;
   }
- 
+
   /* Links styling */
   .nav a {
     text-decoration: none;
@@ -210,37 +247,37 @@
     font-size: 1.8rem;
     color: white;
   }
- 
+
   .close-menu {
   display:none;
 }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
 .hero-title {
     font-size: 14rem;
     top: 5%;
   }
- 
+
   .hero-subtitle {
     font-size: 2rem;
     top: 30%;
   }
- 
+
   .reserve-button {
     top: 73%;
     font-size: 1,3rem;
     padding: 0,2rem 3rem;
   }
- 
+
   .info-section {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
@@ -249,63 +286,63 @@
     align-items: start;
     padding: 2rem 2rem 4rem;
   }
- 
+
   .sfeer-card {
     grid-area: sfeer;
   }
- 
+
   .over-card {
     grid-area: over;
   }
- 
+
   .keuken-card {
     grid-area: keuken;
   }
- 
+
   .huisgemaakt-card {
     grid-area: huisgemaakt;
   }
- 
+
   .info-card {
     padding: 2rem 1.5rem;
   }
- 
+
   .info-card h2 {
     font-size: 2rem;
   }
- 
+
   .info-card p {
     font-size: 1.1rem;
   }
- 
+
   .hero-image {
   height: 800px;
- 
+  
 }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
 .vacatures-main {
     padding: 2.5rem 3rem 4rem;
   }
- 
+
   .vacatures-title {
     font-size: 14rem;
     top: 5%;
   }
- 
+
   .vacatures-subtitle {
     font-size: 2rem;
     top: 30%;
   }
- 
+
   .vacatures-section {
     grid-template-columns: 1.1fr 0.9fr;
     grid-template-areas:
@@ -314,63 +351,63 @@
     align-items: start;
     gap: 1rem;
   }
- 
+
   .functie-card {
     grid-area: functie;
   }
- 
+
   .verwachtingen-card {
     grid-area: verwachtingen;
     height: 100%;
   }
- 
+
   .bieden-card {
     grid-area: bieden;
   }
- 
+
   .contact-card {
     display: none;
   }
- 
+
   .vacature-card {
     text-align: left;
     padding: 1.5rem 2rem;
   }
- 
+
   .functie-card,
   .bieden-card {
     text-align: center;
   }
- 
+
   .functie-card p {
     line-height: 1.8;
   }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
   .locatie-main {
     padding: 2.5rem 3rem 4rem;
   }
- 
+
   .locatie-title {
     font-size: 14rem;
     top: 5%;
   }
- 
+
   .locatie-subtitle {
     font-size: 2rem;
     top: 30%;
   }
- 
+
   .locatie-section {
     grid-template-columns: 1.1fr 1fr;
     grid-template-areas:
@@ -379,32 +416,85 @@
     align-items: start;
     gap: 1rem;
   }
- 
+
   .opening-card {
     grid-area: opening;
     min-height: 100%;
   }
- 
+
   .adres-card {
     grid-area: adres;
   }
- 
+
   .map-card {
     grid-area: map;
     display: block;
   }
- 
+
   .opening-card h2 {
     text-align: left;
     font-size: 2rem;
   }
- 
+
   .adres-card h2 {
     font-size: 2rem;
   }
- 
+
   .opening-list li {
     font-size: 1.7rem;
   }
- 
+
+
+
+
+
+
+
+  .menu-main {
+    padding: 2rem 3rem 3rem;
+  }
+
+  .menu-title {
+    font-size: 14rem;
+    top: 5%;
+  }
+
+  .menu-subtitle {
+    font-size: 14rem;
+    top: 5%;
+  }
+
+  .menu-section {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "lunch drinks"
+      "lunch image";
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .lunch-card {
+    grid-area: lunch;
+  }
+
+  .drinks-card {
+    grid-area: drinks;
+  }
+
+  .menu-image-card {
+    grid-area: image;
+    display: block;
+  }
+
+  .menu-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .menu-card h2 {
+    font-size: 2.4rem;
+  }
+
+  .menu-card p {
+    font-size: 1.5rem;
+  }
 }
