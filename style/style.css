@@ -9,7 +9,9 @@ body {
   background-color:#EBD8A4;
 }
 
-/* Header */
+
+
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -18,15 +20,12 @@ body {
   padding: 0px 20px; 
 }
 
-
-
-/* Logo grootte */
 .logo img {
   width: 36vw;
  
 }
 
-/* Hamburger menu*/
+
 .hamburger {
   display: flex;
   flex-direction: column;
@@ -36,14 +35,16 @@ body {
   cursor: pointer;
 }
 
-/* Lijnen van hamburger */
+
 .hamburger span {
   width: 45px;
   height: 4px;
   background-color: white;
 }
 
-/* Navigatie standaard verborgen (mobile first) */
+
+
+
 
 .nav {
   display: none;
@@ -100,13 +101,13 @@ body {
   text-align: center;
 }
 
-/* Logo */
+
 .footer-logo img {
   width: 250px;
   margin-bottom: 20px;
 }
 
-/* Contact tekst */
+
 .footer-contact h2 {
   margin-bottom: 10px;
 }
@@ -115,7 +116,7 @@ body {
   margin-bottom: 5px;
 }
 
-/* Social media */
+
 .footer-social {
   display: flex;
   justify-content: center;
@@ -127,7 +128,6 @@ body {
   width: 40px;
 }
 
-/* Copyright */
 .footer-copy p {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.43); 
@@ -138,7 +138,7 @@ body {
 
 
 
-/* Hoofdinhoud homepagina */
+/* homepagina */
 .home-main {
   background-color: #EBD8A4;
 }
@@ -224,7 +224,7 @@ body {
 
 
 
-/* Hoofdinhoud vacaturespagina */
+/*vacaturespagina */
 .vacatures-main {
   background-color: #EBD8A4;
   padding: 2rem 1.5rem 3rem;
@@ -283,7 +283,7 @@ body {
 
 
 
-/* Hoofdinhoud locatiepagina */
+/*locatiepagina */
 .locatie-main {
   background-color: #EBD8A4;
   padding: 2rem 1.5rem 3rem;
@@ -377,7 +377,7 @@ body {
 
 
 
-/* Hoofdinhoud menupagina */
+/*menupagina */
 .menu-main {
   background-color: #EBD8A4;
   padding: 2rem 1rem 3rem;
@@ -487,7 +487,7 @@ body {
 
 
 
-/* Hoofdinhoud reserverenpagina */
+/*reserverenpagina */
 .reserve-main {
   background-color: #EBD8A4;
 }
