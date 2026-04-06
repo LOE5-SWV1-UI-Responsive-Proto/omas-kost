@@ -154,6 +154,40 @@
   .menu-card p {
     font-size: 1.2rem;
   }
+
+
+
+
+
+
+.reserve-hero-title {
+    font-size: 4.5rem;
+    bottom: 24%;
+  }
+
+  .reserve-hero-text {
+    font-size: 1.5rem;
+    bottom: 10%;
+  }
+
+  .reserve-content {
+    padding: 2.5rem 2rem 4rem;
+  }
+
+  .reserve-info h2,
+  .reserve-form h2 {
+    font-size: 2.4rem;
+  }
+
+  .reserve-info p,
+  .reserve-form input,
+  .reserve-form textarea,
+  .reserve-form button {
+    font-size: 1rem;
+  }
+
+
+  
 }
 
        
@@ -244,7 +278,7 @@
   .nav a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     color: white;
   }
 
@@ -455,14 +489,12 @@
   }
 
   .menu-title {
-    font-size: 14rem;
-    top: 5%;
+    font-size: 8rem;
   }
 
   .menu-subtitle {
-    font-size: 2rem;
-    top: 30%;
-
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
   }
 
   .menu-section {
@@ -498,4 +530,61 @@
   .menu-card p {
     font-size: 1.5rem;
   }
+
+
+
+
+
+
+
+   .reserve-hero-title {
+    font-size: 7.5rem;
+    left: 9%;
+    bottom: 22%;
+    width: 40%;
+  }
+
+  .reserve-hero-text {
+    font-size: 2.8rem;
+    left: 9%;
+    bottom: 8%;
+    width: 60%;
+  }
+
+
+  .reserve-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    padding: 3rem 4rem 4rem;
+    align-items: stretch;
+  }
+
+  .reserve-info,
+  .reserve-form {
+    height: 100%;
+  }
+
+  .reserve-info {
+    display: grid;
+    align-content: space-between;
+    padding: 3rem 2rem;
+  }
+
+  .reserve-info h2 {
+    font-size: 5rem;
+    line-height: 1.2;
+  }
+
+  .reserve-info p {
+    font-size: 2rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+
+
+
+  .reserve-hero-image {
+  height: 100vh;
+}
+
 }
