@@ -9,3 +9,17 @@ hamburger.addEventListener("click", function () {
 closeMenu.addEventListener("click", function () {
   navMenu.classList.remove("active");
 });
+
+
+
+
+
+
+const menuMain = document.getElementById("menu-main");
+const themeToggle = document.getElementById("theme-toggle");
+
+if (menuMain && themeToggle) {
+  themeToggle.addEventListener("click", function () {
+    menuMain.classList.toggle("dark-mode");
+  });
+}
